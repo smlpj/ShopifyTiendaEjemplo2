@@ -107,11 +107,13 @@
     <div>
       <h2>{{ 'customer.account.details' | t }}</h2>
 
+      {{ customer.metafields.medida_del_brazo_cm }}
+
       <p><a href="/account?view=edit" class="edit-account-link">{{ shop.metafields.cf_app.account_edit_link_title }}</a></p>
 
       {{ customer.default_address | format_address }}
 
-      {{ customer.metafields.medida_del_brazo_cm }}
+      
       
 
       <a href="{{ routes.account_addresses_url }}">
