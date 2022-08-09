@@ -218,78 +218,6 @@
         "padding_bottom": 36
       }
     },
-    "1660071954a89aad56": {
-      "type": "featured-product",
-      "blocks": {
-        "1660071954d5bc48ab-0": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "1660071954d5bc48ab-1": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "1660071954d5bc48ab-2": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "1660071954d5bc48ab-3": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "1660071954d5bc48ab-4": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "1660071954d5bc48ab-5": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "1660071954d5bc48ab-6": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "1660071954d5bc48ab-7": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "1660071954d5bc48ab-0",
-        "1660071954d5bc48ab-1",
-        "1660071954d5bc48ab-2",
-        "1660071954d5bc48ab-3",
-        "1660071954d5bc48ab-4",
-        "1660071954d5bc48ab-5",
-        "1660071954d5bc48ab-6",
-        "1660071954d5bc48ab-7"
-      ],
-      "settings": {
-        "product": "agendar-cita",
-        "color_scheme": "background-1",
-        "secondary_background": false,
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "16589344551bb51bf5": {
       "type": "slideshow",
       "blocks": {
@@ -397,7 +325,6 @@
     "multicolumn",
     "collection-list",
     "165912988305e8f5e3",
-    "1660071954a89aad56",
     "16589344551bb51bf5",
     "rich-text-1"
   ]
