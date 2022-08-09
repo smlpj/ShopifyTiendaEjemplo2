@@ -171,6 +171,52 @@
         "padding_bottom": 36
       }
     },
+    "1660072415ee98fabe": {
+      "type": "featured-product",
+      "blocks": {
+        "166007241569aae629-0": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "uppercase"
+          }
+        },
+        "166007241569aae629-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "166007241569aae629-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "166007241569aae629-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        }
+      },
+      "block_order": [
+        "166007241569aae629-0",
+        "166007241569aae629-1",
+        "166007241569aae629-2",
+        "166007241569aae629-4"
+      ],
+      "settings": {
+        "product": "agendar-cita",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "165912988305e8f5e3": {
       "type": "collection-list",
       "blocks": {
@@ -324,6 +370,7 @@
     "rich_text",
     "multicolumn",
     "collection-list",
+    "1660072415ee98fabe",
     "165912988305e8f5e3",
     "16589344551bb51bf5",
     "rich-text-1"
