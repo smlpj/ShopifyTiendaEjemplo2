@@ -171,41 +171,67 @@
         "padding_bottom": 36
       }
     },
-    "1660072415ee98fabe": {
+    "1660141602e32b437d": {
       "type": "featured-product",
       "blocks": {
-        "166007241569aae629-0": {
+        "16601416023d7fda94-0": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "{{ section.settings.product.vendor }}",
             "text_style": "uppercase"
           }
         },
-        "166007241569aae629-1": {
+        "16601416023d7fda94-1": {
           "type": "title",
           "settings": {
             "heading_size": "h1"
           }
         },
-        "166007241569aae629-2": {
+        "16601416023d7fda94-2": {
           "type": "text",
           "settings": {
             "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
             "text_style": "subtitle"
           }
         },
-        "166007241569aae629-4": {
+        "16601416023d7fda94-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "16601416023d7fda94-4": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button"
           }
+        },
+        "16601416023d7fda94-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "16601416023d7fda94-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "16601416023d7fda94-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
         }
       },
       "block_order": [
-        "166007241569aae629-0",
-        "166007241569aae629-1",
-        "166007241569aae629-2",
-        "166007241569aae629-4"
+        "16601416023d7fda94-0",
+        "16601416023d7fda94-1",
+        "16601416023d7fda94-2",
+        "16601416023d7fda94-3",
+        "16601416023d7fda94-4",
+        "16601416023d7fda94-5",
+        "16601416023d7fda94-6",
+        "16601416023d7fda94-7"
       ],
       "settings": {
         "product": "agendar-cita",
@@ -370,7 +396,7 @@
     "rich_text",
     "multicolumn",
     "collection-list",
-    "1660072415ee98fabe",
+    "1660141602e32b437d",
     "165912988305e8f5e3",
     "16589344551bb51bf5",
     "rich-text-1"
